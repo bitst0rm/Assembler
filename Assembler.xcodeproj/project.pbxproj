@@ -14,7 +14,7 @@
 		462342A2160541070036D103 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 46234299160541070036D103 /* Credits.rtf */; };
 		462342A3160541070036D103 /* Customize.png in Resources */ = {isa = PBXBuildFile; fileRef = 4623429A160541070036D103 /* Customize.png */; };
 		462342A4160541070036D103 /* Icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 4623429B160541070036D103 /* Icon.icns */; };
-		462342A5160541070036D103 /* nasm in Resources */ = {isa = PBXBuildFile; fileRef = 4623429C160541070036D103 /* nasm */; };
+		462342A5160541070036D103 /* nasm.bin in Resources */ = {isa = PBXBuildFile; fileRef = 4623429C160541070036D103 /* nasm.bin */; };
 		462342A6160541070036D103 /* Syntax.png in Resources */ = {isa = PBXBuildFile; fileRef = 4623429D160541070036D103 /* Syntax.png */; };
 		46DFC63B16053E8000446C2C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46DFC63A16053E8000446C2C /* Cocoa.framework */; };
 		46DFC64516053E8000446C2C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 46DFC64316053E8000446C2C /* InfoPlist.strings */; };
@@ -34,7 +34,7 @@
 		46234299160541070036D103 /* Credits.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; name = Credits.rtf; path = Resources/Credits.rtf; sourceTree = "<group>"; };
 		4623429A160541070036D103 /* Customize.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Customize.png; path = Resources/Customize.png; sourceTree = "<group>"; };
 		4623429B160541070036D103 /* Icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = Icon.icns; path = Resources/Icon.icns; sourceTree = "<group>"; };
-		4623429C160541070036D103 /* nasm */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; name = nasm; path = Resources/nasm; sourceTree = "<group>"; };
+		4623429C160541070036D103 /* nasm.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; name = nasm.bin; path = Resources/nasm.bin; sourceTree = "<group>"; };
 		4623429D160541070036D103 /* Syntax.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Syntax.png; path = Resources/Syntax.png; sourceTree = "<group>"; };
 		46DFC63616053E8000446C2C /* Assembler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Assembler.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		46DFC63A16053E8000446C2C /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
@@ -47,7 +47,6 @@
 		46DFC64816053E8000446C2C /* Assembler-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Assembler-Prefix.pch"; sourceTree = "<group>"; };
 		46DFC64A16053E8000446C2C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
 		46DFC65016053E8000446C2C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
-		46DFC65916053F2300446C2C /* Icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Icon.icns; sourceTree = "<group>"; };
 		46DFC65C16053F4200446C2C /* AssemblerAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AssemblerAppDelegate.h; sourceTree = "<group>"; };
 		46DFC65D16053F4200446C2C /* AssemblerAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AssemblerAppDelegate.m; sourceTree = "<group>"; };
 		46DFC65E16053F4200446C2C /* Command.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Command.h; sourceTree = "<group>"; };
@@ -142,9 +141,8 @@
 				46234299160541070036D103 /* Credits.rtf */,
 				4623429A160541070036D103 /* Customize.png */,
 				4623429B160541070036D103 /* Icon.icns */,
-				4623429C160541070036D103 /* nasm */,
+				4623429C160541070036D103 /* nasm.bin */,
 				4623429D160541070036D103 /* Syntax.png */,
-				46DFC65916053F2300446C2C /* Icon.icns */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -210,7 +208,7 @@
 				462342A2160541070036D103 /* Credits.rtf in Resources */,
 				462342A3160541070036D103 /* Customize.png in Resources */,
 				462342A4160541070036D103 /* Icon.icns in Resources */,
-				462342A5160541070036D103 /* nasm in Resources */,
+				462342A5160541070036D103 /* nasm.bin in Resources */,
 				462342A6160541070036D103 /* Syntax.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

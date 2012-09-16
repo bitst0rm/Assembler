@@ -1,7 +1,7 @@
 Assembler.app
 ========
 
-Assembles individual instructions and jumps in intel architectures and ARM to their corresponding opcodes.
+Assembles individual instructions and jumps in intel architectures and ARM (no branches with ARM atm) to their corresponding opcodes.
 Will also convert decimal to hexadecimal and visa versa as well as swap endianness of numbers.
 
 Screenshots

@@ -55,8 +55,10 @@ NSString *architecture = @"unknownArchitecture";
 	[hexTextView setFont:font];
 	[hexTextView setTextContainerInset:NSMakeSize(8,4)];
 	
-	[hexTextView setBackgroundColor:[NSColor colorWithCalibratedHue:0.6209 saturation:0.0686 brightness:0.9804 alpha:1.0000]];
-	[scrollView setBackgroundColor:[NSColor colorWithCalibratedHue:0.2889 saturation:0.0002 brightness:0.5595 alpha:1.0000]];
+	[hexTextView setBackgroundColor:[NSColor colorWithCalibratedHue:0.6209 saturation:0.0686
+                                                         brightness:0.9804 alpha:1.0000]];
+	[scrollView setBackgroundColor:[NSColor colorWithCalibratedHue:0.2889 saturation:0.0002
+                                                            brightness:0.5595 alpha:1.0000]];
 	
 	[[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(textViewChangedFrame:)
                                                  name:NSViewFrameDidChangeNotification object:assemblyTextView];
@@ -116,7 +118,7 @@ NSString *architecture = @"unknownArchitecture";
     [file createFileAtPath:@"/tmp/instruction" contents:instructionData attributes:nil];
     [file createFileAtPath:@"/tmp/asm2hex" contents:nil attributes:nil];
     NSArray *args = [[NSArray alloc] initWithObjects:@"/tmp/instruction", @"-f", @"bin", @"-o", @"/tmp/asm2hex", nil];
-    NSString *path = [[NSBundle mainBundle] pathForResource:@"nasm" ofType:nil];
+    NSString *path = [[NSBundle mainBundle] pathForResource:@"nasm" ofType:@"bin"];
     NSTask *nasm = [NSTask launchedTaskWithLaunchPath:path arguments:args];
     [nasm waitUntilExit];
     
