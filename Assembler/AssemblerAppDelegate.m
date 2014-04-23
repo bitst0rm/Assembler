@@ -106,11 +106,11 @@ NSString *architecture = @"unknownArchitecture";
     if ([[[architecturePopUpButton selectedItem] title] isEqualToString:@"x86_64"])
     {
         // need BITS 64 at top of file for 64 bit in nasm
-        instruction = [NSString stringWithFormat:@"BITS 64\n%@", instr];
+        instruction = [NSMutableString stringWithFormat:@"BITS 64\n%@", instr];
     }
     else if ([[[architecturePopUpButton selectedItem] title] isEqualToString:@"i386"])
     {
-        instruction = [NSString stringWithFormat:@"BITS 32\n%@", instr];
+        instruction = [NSMutableString stringWithFormat:@"BITS 32\n%@", instr];
     }
     
     NSData *instructionData = [instruction dataUsingEncoding:NSASCIIStringEncoding];
