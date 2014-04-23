@@ -92,10 +92,8 @@
 			return hex;
 		}
 	}
-    else
-    {
-        return @"jumpcalculator: error";
-    }
+    
+    return @"jumpcalculator: error";
 }
 
 int xstrtoi(char *hex)
