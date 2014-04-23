@@ -174,7 +174,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = BP;
-				LastUpgradeCheck = 0440;
+				LastUpgradeCheck = 0510;
 			};
 			buildConfigurationList = 46DFC63016053E8000446C2C /* Build configuration list for PBXProject "Assembler" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -261,7 +261,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -289,7 +288,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
